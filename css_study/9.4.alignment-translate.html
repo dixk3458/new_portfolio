@@ -12,10 +12,17 @@
         background-color: grey;
       }
 
+      /*기존의 위치에서 이동을 해야하기 때문에,
+      position:relative를 사용한다.  */
+
       .inner {
         width: 80px;
         height: 80px;
         background-color: blue;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
     </style>
   </head>
