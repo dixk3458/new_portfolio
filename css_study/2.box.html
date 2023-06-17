@@ -12,6 +12,28 @@
         margin-bottom: 10px;
         background-color: chocolate;
       }
+
+      /* 현재 박스들의 사이즈는 100 X 100 사이즈의 박스이다. */
+
+      .box1,
+      .box3 {
+        padding: 20px;
+        border: 5px solid black;
+      }
+
+      /* border-box는 padding,border를 합해 콘텐츠의 사이즈에 적용하고 */
+      /* content-box는 padding,border는 별개로 적용된다. */
+    
+      .box1 {
+        box-sizing: border-box;
+      }
+
+      /* content-box가 기본값이다. */
+      .box3 {
+        box-sizing: content-box;
+      }
+
+
     </style>
   </head>
   <body>
