@@ -13,6 +13,7 @@
         background-color: darkslategray;
       }
       .box {
+        position: relative;
         width: 80%;
         height: 80%;
         padding: 20px;
@@ -27,6 +28,11 @@
       }
       .inner2 {
         background-color: palegoldenrod;
+        /* absolute는 기존 위치에서 빠져나와, 가장 인접한 
+        static 속성이 아닌 부모를 기준으로 위치를 배치한다.*/
+        position: absolute;
+        top: 80px;
+        left: 100px;
       }
       .inner3 {
         background-color: darkseagreen;
