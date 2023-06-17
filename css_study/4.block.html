@@ -5,7 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Block vs Inline vs Inline-Block</title>
-    <style></style>
+    <style>
+      /* 요소에 background 색상을 지정하면, 디버깅하기에 편하다. */
+      p,
+      span {
+        background-color: skyblue;
+      }
+
+      /* block레벨의 박스는 한줄에 한개의 요소만 올수있다. */
+      /* inline레벨의 박스는 한줄에 크기에 맞게 요소가 배치된다. */
+      /* display 속성을 통해 변경할수있다. */
+
+      p {
+        display: inline;
+      }
+
+      span {
+        display: block;
+      }
+
+      /* inline-block은 block처럼 한줄에 한개의 요소만 올수있지만, 각 요소에 크기에 맞게 표현할수있다. */
+      .inlineBlock {
+        display: inline-block;
+      }
+
+    </style>
   </head>
   <body>
     <p>기본적인 블럭 요소인 p</p>
