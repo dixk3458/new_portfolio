@@ -5,7 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cascading</title>
-    <style></style>
+    <style>
+      h1 {
+        font-size: 16px;
+      }
+
+      /* 구체적일수록 우선순위가 높다 */
+
+      button {
+        background-color: salmon;
+        color: white;
+      }
+
+      .special {
+        background-color: aqua;
+        color: black;
+      }
+
+      #primary {
+        background-color: red;
+      }
+
+      .special {
+        background-color: darkgreen;
+      }
+    </style>
   </head>
   <body>
     <h1>Cascading을 확인하는 버튼들</h1>
@@ -13,5 +37,8 @@
     <button class="special">클래스 버튼</button>
     <button class="special">클래스 버튼</button>
     <button class="special" id="primary">클래스+아이디 버튼</button>
+    <button class="special" id="primary" style="background-color: yellow">
+      클래스+아이디 버튼
+    </button>
   </body>
 </html>
