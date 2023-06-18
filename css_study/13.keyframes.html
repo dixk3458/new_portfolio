@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Keyframes</title>
     <style>
+      @keyframes slidein {
+        0% {
+          backgroud-color: aquamarine;
+        }
+
+        50% {
+          background-color: pink;
+        }
+
+        100% {
+          transform: translateX(500px);
+          background-color: hotpink;
+        }
+      }
+
       .box {
         width: 100px;
         height: 100px;
         margin: 20px;
+        border-radius: 100%;
         background-color: chocolate;
+        animation: 3s linear infinite alternate slidein;
       }
     </style>
   </head>
