@@ -12,12 +12,24 @@
         background-color: tomato;
         margin-bottom: 50px;
       }
+
+      div[data-display-name='dream'] {
+        background-color: beige;
+      }
     </style>
   </head>
   <body>
-    <div>드림!!</div>
-    <div></div>
-    <span>드림!!</span>
-    <script></script>
+    <!-- HTML태그에서 기본적으로 제공하는 속성이 없을경우 -->
+    <!-- HTML태그에 원하는 데이터를 저장할때 유용하게 사용된다. -->
+
+    <div data-index="1" data-display-name="dream">드림!!</div>
+    <div data-index="2" data-display-name="coding"></div>
+    <span data-index="1" data-display-name="dream">드림!!</span>
+    <script>
+      const dream = document.querySelector('div[data-display-name = "dream"]');
+      console.log(dream.dataset);
+      // 자바스크립트로 접근할때에는 하이픈 - 이 자동으로 삭제되고, 카멜케이스 형태로 바뀐다.
+      console.log(dream.dataset.displayName);
+    </script>
   </body>
 </html>
