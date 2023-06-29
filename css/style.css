@@ -102,3 +102,54 @@ button:focus {
   border: 1px solid var(--color-accent);
   border-radius: 4px;
 }
+
+/* Home */
+
+#home {
+  background-color: var(--color-black);
+  padding: 5rem 1rem;
+  padding-top: 7rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid var(--color-accent);
+  border-radius: 100%;
+}
+
+.home__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home__title--strong {
+  color: var(--color-accent);
+}
+
+.home__description {
+  font-size: 1.3rem;
+}
+
+.home__description--strong {
+  color: var(--color-accent);
+}
+
+.home__contact {
+  display: inline-block;
+  background: var(--color-accent);
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+  color: var(--color-black);
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.home__contact:hover {
+  background-color: transparent;
+  color: var(--color-text);
+  outline: 2px solid var(--color-accent);
+}
