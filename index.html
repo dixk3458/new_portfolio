@@ -335,36 +335,40 @@
         <!-- Screen Reader가 a태그안에있는 내용 즉 아이콘을 읽을수없기때문에
           웹 접근성을 높이고자 a태그안에 title속성을 사용하여. 
         a태그안에 내용이 없는경우 접근성을 높일수있다.-->
-        <a href="#home" title="back to top">
+        <a class="arrow-up" href="#home" title="back to top">
           <i class="fa-solid fa-arrow-up"></i>
         </a>
       </aside>
     </main>
     <!-- Footer -->
     <footer id="contact" class="section">
-      <h2 class="title">Let&#39;s talk</h2>
-      <p class="description">dixk3458@naver.com</p>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/dixk3458"
-            target="_blank"
-            title="my github link"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/wo.__.0ng/"
-            target="_blank"
-            title="my instagram link"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-      <p>© 2023 Jaewoong Jeong. All Rights Reserved.</p>
+      <div class="max-container">
+        <h2 class="title">Let&#39;s talk</h2>
+        <p class="description">dixk3458@naver.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/dixk3458"
+              target="_blank"
+              title="my github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://www.instagram.com/wo.__.0ng/"
+              target="_blank"
+              title="my instagram link"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p>© 2023 Jaewoong Jeong. All Rights Reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
