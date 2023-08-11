@@ -20,9 +20,9 @@ categories.addEventListener('click', event => {
 const handleActiveSelection = target => {
   const active = document.querySelector('.category--selected');
   active.classList.remove('category--selected');
-  event.target.nodeName == 'SPAN'
-    ? event.target.parentNode.classList.add('category--selected')
-    : event.target.classList.add('category--selected');
+  target.nodeName == 'SPAN'
+    ? target.parentNode.classList.add('category--selected')
+    : target.classList.add('category--selected');
 };
 
 //  프로젝트 필터링
