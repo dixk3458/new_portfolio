@@ -31,7 +31,8 @@
       src="https://kit.fontawesome.com/ab7fa61afd.js"
       crossorigin="anonymous"
     ></script>
-
+    <!-- TypeIt -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -39,6 +40,7 @@
     <script type="module" src="./src/main.js" defer></script>
     <script type="module" src="./src/projects.js" defer></script>
     <script type="module" src="./src/active_menu.js"></script>
+    <script type="module" src="./src/type.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -78,11 +80,14 @@
             src="images/profile_circle.png"
             alt="Jaewoong's profile"
           />
-          <h2 class="home__title">
-            안녕하세요 <br />
+          <h2 class="home__title" aria-label="안녕하세요 정재웅 입니다.">
+            안녕하세요<br />
             <strong class="home__title--strong">정재웅</strong>입니다.
           </h2>
-          <p class="home__description">
+          <p
+            class="home__description"
+            aria-label="저는 흡수력이 빠른 프론트엔드 개발자 입니다."
+          >
             저는
             <strong class="home__description--strong">흡수력이 빠른</strong>
             프론트엔드 개발자입니다.
