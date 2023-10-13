@@ -234,6 +234,18 @@ button:focus {
 
 /* About */
 
+.about__notion {
+  margin-bottom: 1rem;
+  background-color: var(--color-accent);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+}
+
+.notion__text {
+  color: var(--color-black);
+  font-size: 1.2rem;
+}
+
 .majors {
   display: flex;
   justify-content: space-between;

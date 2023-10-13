@@ -22,7 +22,7 @@ function handleHomeDescriptionInstance(instance) {
     .move(-7) //
     .move(null, { to: 'END' })
     .delete() //
-    .type('대체가 힘든')
+    .type('흡수력이 빠른')
     .pause(1000)
     .move(-6)
     .move(null, { to: 'END' })
