@@ -195,6 +195,7 @@ button:focus {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  line-height: 2px;
   border: 3px solid var(--color-accent);
   border-radius: 100%;
 }
@@ -239,11 +240,17 @@ button:focus {
   background-color: var(--color-accent);
   border-radius: 12px;
   padding: 1rem 1.1rem;
+  transition: all 150ms ease-in;
+}
+
+.about__notion:hover {
+  transform: scale(1.1);
 }
 
 .notion__text {
   color: var(--color-black);
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .majors {
@@ -546,6 +553,11 @@ button:focus {
   opacity: 0;
   visibility: hidden;
   transition: opacity 300ms ease-in;
+  transition: transform 150ms ease-in;
+}
+
+.arrow-up:hover {
+  transform: scale(1.1);
 }
 
 .arrow-up--visible {
