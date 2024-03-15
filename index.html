@@ -46,12 +46,6 @@
     <!-- Header -->
     <header class="header">
       <div class="header__logo">
-        <img
-          class="header__logo__img"
-          src="images/favicon.ico"
-          alt="logo"
-          class="logo"
-        />
         <h1 class="header__logo__title"><a href="#">Jaewoong</a></h1>
       </div>
       <nav class="header__nav">
@@ -86,11 +80,11 @@
           </h2>
           <p
             class="home__description"
-            aria-label="저는 눈치가 뻐른 프론트엔드 개발자 입니다."
+            aria-label="해야되는,하고싶은 그리고 성장해 나가고 싶은"
           >
             저는
-            <strong class="home__description--strong">눈치가 빠른</strong>
-            프론트엔드 개발자입니다.
+            <strong class="home__description--strong">해야되는</strong>
+            모든것을 다루는 개발자 입니다.
           </p>
           <a class="home__contact" href="#contact">Contact Me</a>
         </div>
@@ -101,15 +95,17 @@
         <button class="about__notion">
           <a
             class="notion__text"
-            href="https://www.notion.so/77c4cae8c9ff4abca0d3ca26577fabc1?pvs=4"
+            href="https://distinct-boursin-9c6.notion.site/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4"
             >Notion Page
           </a>
         </button>
         <p class="description">
-          <strong style="color: var(--color-orange)"
-            >해야되는,하고싶은 그리고 성장해 나가고 싶은</strong
-          >
-          모든것을 다루는 멋진 개발자입니다.
+          저는 <strong>서비스를 제공하고 개선하는 과정</strong>에서 희열을
+          느낍니다. <br />
+          라이브러리를 선택할때 다운로드 수와 라이브러리의 생태계까지
+          <strong>고려</strong>하는 프론트엔드 개발자입니다.
+          <strong>TTV</strong> 와 <strong>TTI</strong>를 고려한 부드러운 UX
+          제공을 지향합니다.
         </p>
         <ul class="majors">
           <li class="major">
@@ -117,19 +113,13 @@
             <p class="major__title">Front-end</p>
             <p>HTML, CSS, JavaScript, React, Web APIs</p>
           </li>
-
-          <li class="major">
-            <i class="fa-solid fa-mobile major__icon"></i>
-            <p class="major__title">Mobile</p>
-            <p>Android, Java</p>
-          </li>
         </ul>
         <ul class="jobs">
           <li class="job">
             <img class="job__icon" src="images/jj.png" alt="전주대학교" />
             <div>
               <p class="job__name">전주대학교</p>
-              <p class="job__period">2024년도 졸업 예정</p>
+              <p class="job__period">2024년도 졸업</p>
             </div>
           </li>
           <li class="job">
@@ -153,23 +143,7 @@
               <ul>
                 <li class="bar">
                   <div class="bar__metadata">
-                    <span>HTML</span><span>98%</span>
-                  </div>
-                  <div class="bar__bg">
-                    <div class="bar__value" stlye="width:98%"></div>
-                  </div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata">
-                    <span>CSS</span><span>80%</span>
-                  </div>
-                  <div class="bar__bg">
-                    <div class="bar__value" style="width: 80%"></div>
-                  </div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata">
-                    <span>JavaScript</span><span>90%</span>
+                    <span>HTML</span><span>90%</span>
                   </div>
                   <div class="bar__bg">
                     <div class="bar__value" style="width: 90%"></div>
@@ -177,10 +151,34 @@
                 </li>
                 <li class="bar">
                   <div class="bar__metadata">
-                    <span>React</span><span>80%</span>
+                    <span>CSS</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>80%</span>
                   </div>
                   <div class="bar__bg">
                     <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>React</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Next.js</span><span>65%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 65%"></div>
                   </div>
                 </li>
               </ul>
@@ -189,13 +187,15 @@
               <h3 class="skills__title">Tools</h3>
               <ul>
                 <li>Visual Studio Code</li>
-                <li>Android Studio Code</li>
               </ul>
             </section>
             <section class="skills__etc">
               <h3 class="skills__title">Etc</h3>
               <ul>
                 <li>Git</li>
+                <li>ReactQuery</li>
+                <li>SWR</li>
+                <li>Tailwind</li>
               </ul>
             </section>
           </div>
@@ -209,28 +209,53 @@
           <ul class="categories">
             <li>
               <button class="category category--selected" data-category="all">
-                All <span class="category__count">4</span>
+                All <span class="category__count">6</span>
               </button>
             </li>
             <li>
               <button class="category" data-category="front-end">
-                Front-end <span class="category__count">4</span>
+                Front-end <span class="category__count">5</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="back-end">
-                Back-end <span class="category__count">0</span>
-              </button>
-            </li>
-            <li>
-              <button class="category" data-category="mobile">
-                Mobile <span class="category__count">0</span>
+              <button class="category" data-category="full-stack">
+                Full-stack <span class="category__count">1</span>
               </button>
             </li>
           </ul>
           <ul class="projects">
+            <li class="project" data-type="full-stack">
+              <a
+                href="https://github.com/dixk3458/Nextjs-Woongstagram#environment"
+              >
+                <img
+                  src="images/projects/woongstagram.png"
+                  alt="Woongstagram"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Woongstagram</h3>
+                  <p>Next.js</p>
+                  <p>Tailwind,NextAuth,Sanity</p>
+                </div>
+              </a>
+            </li>
             <li class="project" data-type="front-end">
-              <a href="https://joyful-cocada-222e27.netlify.app/">
+              <a href="https://github.com/dixk3458/dev-blog">
+                <img
+                  src="images/projects/blog.png"
+                  alt="Woong's Blog"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Woong's Blog</h3>
+                  <p>Next.js</p>
+                  <p>Tailwind,Nodemailer</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="https://github.com/dixk3458/WoongStore">
                 <img
                   src="images/projects/WoongStore.png"
                   alt="WoongStore"
@@ -239,7 +264,7 @@
                 <div class="project__metadata">
                   <h3 class="project__title">WoongStore</h3>
                   <p>React</p>
-                  <p>SPA,DataBase</p>
+                  <p>firebase,cloudinary</p>
                 </div>
               </a>
             </li>
@@ -253,7 +278,7 @@
                 <div class="project__metadata">
                   <h3 class="project__title">WoongTube</h3>
                   <p>React</p>
-                  <p>SPA</p>
+                  <p>YoutubeAPI</p>
                 </div>
               </a>
             </li>
@@ -362,21 +387,11 @@
           <li>
             <a
               class="contact__link"
-              href="https://www.notion.so/8ae84199c49d44aaba25ea1c07f3b7c1?pvs=4"
+              href="https://distinct-boursin-9c6.notion.site/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4"
               target="_blank"
               title="my notion"
             >
               <img src="./images/notion.png" alt="notionIcon" />
-            </a>
-          </li>
-          <li>
-            <a
-              class="contact__link"
-              href="https://www.instagram.com/wo.__.0ng/"
-              target="_blank"
-              title="my instagram link"
-            >
-              <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
         </ul>
