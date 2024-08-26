@@ -74,8 +74,11 @@
             src="images/정재웅.jpg"
             alt="Jaewoong's profile"
           />
-          <h2 class="home__title" aria-label="안녕하세요 정재웅 입니다.">
-            안녕하세요<br />
+          <h2
+            class="home__title"
+            aria-label="신입,프론트엔드 개발자 정재웅 입니다."
+          >
+            신입, 프론트엔드 개발자<br />
             <strong class="home__title--strong">정재웅</strong>입니다.
           </h2>
           <p
@@ -100,10 +103,10 @@
           </a>
         </button>
         <p class="description">
-          저는 <strong>서비스를 제공하고 개선하는 과정</strong>에서 희열을
-          느낍니다. <br />
-          라이브러리를 선택할때 다운로드 수와 라이브러리의 생태계까지
-          <strong>고려</strong>하는 프론트엔드 개발자입니다.
+          저는 <strong>사용자 경험을 개선</strong>하는것에 큰 동기를
+          갖습니다.<br />
+          <strong>반응성 높은 UI</strong>를 설계하고,
+          <strong>클라이언트 성능 최적화</strong>를 목표로 합니다.<br />
           <strong>TTV</strong> 와 <strong>TTI</strong>를 고려한 부드러운 UX
           제공을 지향합니다.
         </p>
@@ -111,7 +114,7 @@
           <li class="major">
             <i class="fa-brands fa-html5 major__icon"></i>
             <p class="major__title">Front-end</p>
-            <p>HTML, CSS, JavaScript, React, Web APIs</p>
+            <p>HTML, CSS, TypeScript, React, Next.js</p>
           </li>
         </ul>
         <ul class="jobs">
@@ -159,10 +162,10 @@
                 </li>
                 <li class="bar">
                   <div class="bar__metadata">
-                    <span>JavaScript</span><span>80%</span>
+                    <span>TypeScript</span><span>75%</span>
                   </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 80%"></div>
+                    <div class="bar__value" style="width: 75%"></div>
                   </div>
                 </li>
                 <li class="bar">
@@ -209,25 +212,53 @@
           <ul class="categories">
             <li>
               <button class="category category--selected" data-category="all">
-                All <span class="category__count">6</span>
+                All <span class="category__count">7</span>
               </button>
             </li>
             <li>
               <button class="category" data-category="front-end">
-                Front-end <span class="category__count">5</span>
+                Front-end <span class="category__count">3</span>
               </button>
             </li>
             <li>
               <button class="category" data-category="full-stack">
-                Full-stack <span class="category__count">1</span>
+                Full-stack <span class="category__count">4</span>
               </button>
             </li>
           </ul>
           <ul class="projects">
             <li class="project" data-type="full-stack">
+              <a href="https://d3mi5fmvhnyjbn.cloudfront.net/">
+                <img
+                  src="images/projects/matzipweb.png"
+                  alt="MatzipWeb"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">MatzipWeb</h3>
+                  <p>React,TypeScript,React Query,Zustand</p>
+                  <p>Nest.js,PostgreSQL</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="full-stack">
               <a
-                href="https://github.com/dixk3458/Nextjs-Woongstagram#environment"
+                href="http://ec2-13-124-156-173.ap-northeast-2.compute.amazonaws.com/"
               >
+                <img
+                  src="images/projects/espressohub.png"
+                  alt="Espressohub"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Espressohub</h3>
+                  <p>React,TypeScript,React Query,Redux,Tailwind</p>
+                  <p>Express,MongoDB</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="full-stack">
+              <a href="https://woongstagram.vercel.app">
                 <img
                   src="images/projects/woongstagram.png"
                   alt="Woongstagram"
@@ -240,8 +271,8 @@
                 </div>
               </a>
             </li>
-            <li class="project" data-type="front-end">
-              <a href="https://github.com/dixk3458/dev-blog">
+            <li class="project" data-type="full-stack">
+              <a href="https://dev-blog-green.vercel.app">
                 <img
                   src="images/projects/blog.png"
                   alt="Woong's Blog"
@@ -255,7 +286,7 @@
               </a>
             </li>
             <li class="project" data-type="front-end">
-              <a href="https://github.com/dixk3458/WoongStore">
+              <a href="https://joyful-cocada-222e27.netlify.app">
                 <img
                   src="images/projects/WoongStore.png"
                   alt="WoongStore"
@@ -282,7 +313,7 @@
                 </div>
               </a>
             </li>
-            <li class="project" data-type="front-end">
+            <!-- <li class="project" data-type="front-end">
               <a href="https://iridescent-pika-9b015e.netlify.app/">
                 <img
                   src="images/projects/Todo.png"
@@ -294,7 +325,7 @@
                   <p>React</p>
                 </div>
               </a>
-            </li>
+            </li> -->
             <li class="project" data-type="front-end">
               <a href="https://resonant-kringle-25b05d.netlify.app/">
                 <img
@@ -308,25 +339,11 @@
                 </div>
               </a>
             </li>
-            <!-- <li class="project" data-type="mobile">
-              <a href="https://github.com/StyleRent">
-                <img
-                  src="images/projects/StyleRent.png"
-                  alt="StyleRent"
-                  class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">StyleRent 팀프로젝트</h3>
-                  <p>Coding with Android Java, XML</p>
-                  <p>Naver Map APIs 사용 경험</p>
-                </div>
-              </a>
-            </li> -->
           </ul>
         </div>
       </section>
       <!-- Testimonials -->
-      <section id="testimonial" class="section max-container">
+      <!-- <section id="testimonial" class="section max-container">
         <h2 class="title">Testimonials</h2>
         <p class="description">See what they say about me</p>
         <ul class="testimonials">
@@ -357,7 +374,7 @@
             </div>
           </li>
         </ul>
-      </section>
+      </section> -->
       <!-- Arrow up -->
       <aside>
         <!-- Screen Reader가 a태그안에있는 내용 즉 아이콘을 읽을수없기때문에
